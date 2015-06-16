@@ -1,0 +1,49 @@
+# Misc #
+*~
+*.class
+target
+classes
+*.log
+.externalToolBuilders
+*.mp4
+bin
+build
+.factorypath
+
+# Maven build files/artifacts etc.
+# but excluding the target/target.js of can
+target
+git.properties
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Node files
+node_modules
+# Ignore traceur on root path (added it there for steal build workaround on windows)
+traceur
+
+# Eclipse files #
+.project
+.settings
+.classpath
+
+# NetBeans files #
+nbactions*
+nb-configuration.xml
+.netbeans.xml
+.nb-gradle*
+
+#IntelliJ files
+*.iml
+*.idea
+
+# OSx files
+.DS_Store
+
+#Gradle
+.gradle
+/.nb-gradle/private/
+/.apt_generated/
